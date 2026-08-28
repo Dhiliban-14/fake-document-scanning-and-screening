@@ -1729,7 +1729,7 @@ function App() {
         </div>
 
         {/* Feature 11 & 14: Case Management Header Bar */}
-        <div style={{ display: "flex", gap: "0.8rem", alignItems: "center" }}>
+        <div className="header-actions">
           <div style={{ background: "rgba(15, 23, 42, 0.8)", border: "1px solid var(--border-color)", borderRadius: 8, padding: "0.3rem 0.8rem", display: "flex", alignItems: "center", gap: "0.6rem" }}>
             <Briefcase size={14} className="text-cyan-400" />
             <span style={{ fontSize: "0.82rem", fontWeight: "bold", fontFamily: "var(--font-mono)", color: "#38bdf8" }}>
