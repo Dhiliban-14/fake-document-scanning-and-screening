@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+httpx
+pytesseract
+pillow
+opencv-python-headless>=4.9.0
